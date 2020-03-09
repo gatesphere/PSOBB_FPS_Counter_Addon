@@ -155,7 +155,6 @@ local function init()
 
 
   FPS_Config = fps_cfg.ConfigurationWindow(options)
-  FPS_Config.open = true
 
   local function mainMenuButtonHandler()
       FPS_Config.open = not FPS_Config.open
@@ -171,7 +170,7 @@ local function init()
   
   return {
     name = 'FPS Counter',
-    version = '1.1',
+    version = '1.2',
     author = 'gatesphere',
     present = present,
   }
